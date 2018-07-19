@@ -35,7 +35,10 @@ You can also use following command to find the correct user/group of apache:
 egrep -iw --color=auto 'user|group' /path/to/httpd/conf
 ```
 
-As above example, we can run as: *egrep -iw --color=auto 'user|group' /opt/lampstack/apache2/conf/httpd.conf*
+As above example, we can run as: 
+```
+egrep -iw --color=auto 'user|group' /opt/lampstack/apache2/conf/httpd.conf
+```
 
 And the output is:
 
