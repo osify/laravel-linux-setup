@@ -56,3 +56,10 @@ Group daemon
 ```
 
 Another way, you can also see via phpinfo(); on User/Group.
+
+## Plugins/Solutions
+
+1. Add: `rebuild-vue.sh` for vuejs project:
+
+- To solve problem of node permission issue when execute nodejs/vuejs
+- To solve service worker of laravel in case you use Quoue/Job
